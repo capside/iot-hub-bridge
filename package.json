@@ -1,0 +1,24 @@
+{
+  "name": "iot-hub-bridge",
+  "version": "0.0.1",
+  "description": "A simple mqtt bridge between a broker and the IoT hub. Useful when the native bridge doesn't work.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mqtt",
+    "bridge",
+    "iothub",
+    "azure",
+    "iot"
+  ],
+  "author": "email@javier-moreno.com",
+  "license": "ISC",
+  "dependencies": {
+    "azure-iot-device": "^1.8.2",
+    "azure-iot-device-mqtt": "^1.8.2",
+    "mqtt": "^2.18.8",
+    "npm": "^6.4.1"
+  }
+}
